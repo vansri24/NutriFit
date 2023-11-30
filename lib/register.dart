@@ -26,9 +26,9 @@ class _MyRegisterState extends State<MyRegister> {
         body: Stack(
           children: [
             Container(
-              padding: const EdgeInsets.only(left: 35, top: 30),
+              padding: const EdgeInsets.only(left: 50, top: 100),
               child: const Text(
-                'Create\nAccount',
+                'Create  Account',
                 style: TextStyle(color: Colors.white, fontSize: 33),
               ),
             ),
@@ -114,7 +114,7 @@ class _MyRegisterState extends State<MyRegister> {
                                 )),
                           ),
                           const SizedBox(
-                            height: 40,
+                            height: 20,
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -140,9 +140,9 @@ class _MyRegisterState extends State<MyRegister> {
                               )
                             ],
                           ),
-                          // const SizedBox(
-                          //   height: 40,
-                          // ),
+                          const SizedBox(
+                            height: 1,
+                          ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
